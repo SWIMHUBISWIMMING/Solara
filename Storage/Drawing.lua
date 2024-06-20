@@ -8,7 +8,7 @@ local drawingUI = Instance.new("ScreenGui")
 drawingUI.Name = "Drawing"
 drawingUI.IgnoreGuiInset = true
 drawingUI.DisplayOrder = 0x7fffffff
-drawingUI.Parent = coreGui
+drawingUI.Parent = coreGui.RobloxGui
 -- variables
 local drawingIndex = 0
 local uiStrokes = table.create(0)
